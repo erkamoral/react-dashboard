@@ -1,16 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from '@material-ui/core/Button'
+import ChartsComponent from './components/charts'
+import Nav from './components/navbar'
+import CardComponent from './components/cards'
+import TableComponent from './components/table'
+import LineChart from './components/linechart'
+import UserCard from './components/dropdown'
+import './assets/styles.css'
+import malwation from './assets/img/malwation.png'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <Button variant="contained">Selamlar</Button>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+//Creating App component for render
+const App = () =>
+<div>
+  <div className="grid mx-10 rounded-3xl logo-header grid-cols-6 my-2">
+    <div className="col-start-4 mt-3">
+        <img className="malwation"src={malwation}/>
     </div>
-  );
-}
+    <div className="user-dropdown col-start-8 mt-2">
+        <div >
+        <UserCard />
+        </div>
+    </div>
+  </div>
+<div className="mx-10 rounded-3xl">
+  <div className="grid grid-cols-12"> 
+    <div className="wrap col-span-1">
+      <Nav />
+    </div>
+    <div className="col-start-2 col-span-11">
+      <CardComponent />
+      <div className="space-x-10 grid grid-cols-12">
+        <div className="col-span-8 mt-3">
+          <LineChart />
+        </div>
+        <div className=" col-span-4 mt-3" >
+        <ChartsComponent />
+        </div>
+      </div>   
+    </div>
+  </div>
+  <div className="py-3">
+         <TableComponent />
+      </div>
+</div>
+</div>
 
-export default App;
+export default App

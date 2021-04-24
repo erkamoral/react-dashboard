@@ -1,0 +1,16 @@
+.box {
+    font-family: monospace;
+    font-weight: 700;
+    font-style: inherit!important;
+    background-color: #b39ddb4d;
+    margin: 10px;
+  }
+
+.card-logo{
+    color: #673ab7;
+}
+
+i{
+  text-transform: uppercase;
+  font-style: normal;
+}

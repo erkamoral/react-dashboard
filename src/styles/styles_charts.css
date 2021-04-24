@@ -1,0 +1,75 @@
+.app-content{
+  background-color: #d1c4e9;
+  box-shadow: #d1c4e9;
+}
+.malwation{
+  height: 4vh;
+}
+.logo-header{
+  background-color: #d1c4e9;
+}
+.user-dropdown{
+float: right;
+}
+
+.Charts {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+.Charts--serie {
+  height: 100%;
+  margin: 0 30px 0 0;
+  display: inline-block;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  transform-origin: 0 100%;
+  animation: slideUp 0.6s;
+  position: relative;
+  border-bottom: 1px solid #23232e;
+}
+.Charts--serie label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -28px;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  color: #23232e;
+}
+.Charts--item {
+  background-color: #43A19E;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  flex: 1;
+  transition: height 1s ease-out, width 1s ease-out;
+  position: relative;
+  text-align: center;
+  border-radius: 20px 20px 30px 0;
+}
+
+.Legend--color {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+}
+.Legend--label {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0 0 0 5px;
+}
+@keyframes slideUp {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}

@@ -12,7 +12,7 @@ const App = () =>
 <div>
   <div className=" mx-10 rounded-3xl logo-header my-2">
     <div className="flex justify-center">
-        <img className="malwation mt-3" src={malwation}/>
+        <img className="malwation mt-3" alt="Logo" src={malwation}/>
       </div>
     <div className="user-dropdown col-start-8 mt-2">
         <div className=" flex justify-end">

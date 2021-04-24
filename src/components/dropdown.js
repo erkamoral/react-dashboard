@@ -2,7 +2,7 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import vahit from '../assets/img/vahit.png'
-import { Figure, Image } from 'react-bootstrap';
+import { Figure} from 'react-bootstrap';
 import { Link , BrowserRouter as Router } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/styles_usercard.scss';

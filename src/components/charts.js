@@ -101,12 +101,7 @@ var Charts = createReactClass ({
 		return (
 			<div className={ 'Charts' }>
 				{ data.map(function (serie, serieIndex) {
-				 	var sortedSerie = serie.slice(0),
-				 		sum;
-				 	
-				 	sum = serie.reduce(function (carry, current) {
-				 		return carry + current;
-					}, 0);
+				 	var sortedSerie = serie.slice(0);
 				 	sortedSerie.sort(compareNumbers);				 		
 									 
 					return (

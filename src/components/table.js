@@ -239,9 +239,6 @@ class StatusItem extends React.Component {
   }
   
   class HeaderColumn extends React.Component {
-    constructor() {
-      super();
-    }
     
     render(){
      return (<div className="hcol">{this.props.icon}</div>); 

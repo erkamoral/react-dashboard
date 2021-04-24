@@ -10,12 +10,12 @@ import malwation from './assets/img/malwation.png'
 //Creating App component for render
 const App = () =>
 <div>
-  <div className="grid mx-10 rounded-3xl logo-header grid-cols-6 my-2">
-    <div className="col-start-4 mt-3">
-        <img className="malwation"src={malwation}/>
-    </div>
+  <div className=" mx-10 rounded-3xl logo-header my-2">
+    <div className="flex justify-center">
+        <img className="malwation mt-3" src={malwation}/>
+      </div>
     <div className="user-dropdown col-start-8 mt-2">
-        <div >
+        <div className=" flex justify-end">
         <UserCard />
         </div>
     </div>

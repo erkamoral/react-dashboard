@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/styles_cards.css';
 import '../assets/styles.css'
-import { faCoffee, faBug, faMask } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faCode, faMask } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import * as am4core from "@amcharts/amcharts4/core";
@@ -10,7 +10,7 @@ import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 
 am4core.useTheme(am4themes_animated);
 
-library.add(faCoffee, faBug, faMask);
+library.add(faCoffee, faCode, faMask);
 
 class Pie extends React.Component {
   render() {
@@ -91,7 +91,7 @@ class CardComponent extends React.Component {
                     ]
             },
             {
-                icon: "bug",
+                icon: "code",
                 text:"Programming Languages",
                 chart_data: [ 
                     {

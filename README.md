@@ -4,6 +4,24 @@ Basic Dashboard with React
 
 ![plot](https://github.com/erkamoral/react-dashboard/blob/dev1/src/assets/img/malwation_image.png?raw=true "Title")
 
+Clone this repo:
+
+```
+$ git clone https://github.com/erkamoral/react-dashboard.git
+```
+
+Open the folder:
+
+```
+$ cd react-dashboard
+```
+
+Install all dependancies:
+
+```
+$ npm install
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
